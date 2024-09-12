@@ -8,7 +8,7 @@ def get_username():
 def get_group():
 	return input("What group would you like to join?: ").strip().upper()
 def get_message():
-	return input("What message would you like to send?: ").strip()
+	return input("What message would you like to send?:\n").strip()
 
 
 def initialize_chat():
